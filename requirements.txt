@@ -1,0 +1,15 @@
+pandas
+numpy
+python-dotenv
+openai
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+ragas
+datasets
+openpyxl
+pypdf
+gdown
+nest_asyncio
