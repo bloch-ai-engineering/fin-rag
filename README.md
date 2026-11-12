@@ -4,6 +4,13 @@
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue) ![LangChain](https://img.shields.io/badge/LangChain-FAISS-1c3c3c) ![RAGAS](https://img.shields.io/badge/RAGAS-faithfulness-orange) ![Llama](https://img.shields.io/badge/Llama--3.3--70B-Nebius-black)
 
+**Notebooks**: for the best reading experience, open them in nbviewer (full-page rendering) or Colab:
+
+| Notebook | Read | Run |
+|---|---|---|
+| `financebench_rag.ipynb` | [![nbviewer](https://img.shields.io/badge/view-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/bloch-ai-engineering/fin-rag/blob/main/notebooks/financebench_rag.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bloch-ai-engineering/fin-rag/blob/main/notebooks/financebench_rag.ipynb) |
+
+
 ## The problem
 
 LLMs know what "working capital" means but not what Corning's working capital was in FY2022. FinanceBench asks exactly those questions over real 10-K/10-Q filings, and it is hard on purpose. We wanted to learn **which component to fix when results disappoint**: the retriever or the generator.
